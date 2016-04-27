@@ -19,4 +19,8 @@ public class Rectangle {
     return (mwidth == mlength);
   }
 
+  public int area() {
+    return mlength * mwidth;
+  }
+
 }
